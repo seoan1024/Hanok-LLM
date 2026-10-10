@@ -1,0 +1,17 @@
+# ==========================================
+# Hanok LLM - Full Requirements
+# ==========================================
+
+torch
+transformers
+safetensors
+datasets
+accelerate
+bitsandbytes
+pyarrow
+pandas
+requests
+tqdm
+matplotlib
+setuptools
+wheel

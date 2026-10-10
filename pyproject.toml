@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hanok-llm"
+version = "1.0.0"
+description = "Modular Hanok Korean LLM training and inference system"
+requires-python = ">=3.10"
+dependencies = ["torch", "datasets", "transformers", "safetensors", "pyarrow", "pandas", "requests", "tqdm", "matplotlib"]
+
+[project.optional-dependencies]
+8bit = ["bitsandbytes"]
+test = []
+
+[project.scripts]
+hanok = "hanok.cli:entrypoint"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+hanok = ["evaluation/*.jsonl"]
