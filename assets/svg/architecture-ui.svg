@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
+<title id="title">Hanok LLM architecture</title><desc id="desc">Animated transformer signal path, attention map, residual flow, and model dimensions.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090d18"/><stop offset=".55" stop-color="#10182a"/><stop offset="1" stop-color="#10131f"/></linearGradient>
+ <radialGradient id="aura"><stop stop-color="#465dff" stop-opacity=".23"/><stop offset="1" stop-color="#465dff" stop-opacity="0"/></radialGradient>
+ <linearGradient id="cyan" x2="1"><stop stop-color="#60f0d0"/><stop offset="1" stop-color="#42b9ff"/></linearGradient>
+ <linearGradient id="violet" x2="1"><stop stop-color="#8f79ff"/><stop offset="1" stop-color="#cf77ff"/></linearGradient>
+ <linearGradient id="amber" x2="1"><stop stop-color="#ffc86d"/><stop offset="1" stop-color="#ff8d79"/></linearGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#9bb0de" stroke-opacity=".065" stroke-width=".7"/><circle cx="0" cy="0" r="1" fill="#99b5f8" fill-opacity=".22"/></pattern>
+ <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="26"/></filter>
+ </defs>
+ <rect width="1200" height="480" rx="24" fill="url(#bg)"/><rect width="1200" height="480" rx="24" fill="url(#grid)"/>
+ <circle cx="930" cy="220" r="300" fill="url(#aura)"/><path d="M0 1H1200" stroke="url(#cyan)" stroke-width="2" opacity=".9"/>
+ <g font-family="Inter,Segoe UI,Arial,sans-serif">
+<text x="60" y="53" fill="#61e9ce" font-size="12" font-weight="700" letter-spacing="3">01 / MODEL ARCHITECTURE</text><text x="60" y="112" fill="#f4f7ff" font-size="40" font-weight="750">A decoder, layer by layer</text><text x="62" y="142" fill="#aab6d0" font-size="15">Pre-norm Transformer · RMSNorm · RoPE · SwiGLU · tied embeddings</text>
+<!-- matrix field --> <rect x="58" y="178" width="1084" height="188" rx="18" fill="#0c1323" stroke="#2b3a5a"/><path d="M80 207H1120M80 337H1120" stroke="#293752" stroke-dasharray="3 8"/>
+<g fill="#8899ba" font-size="10" letter-spacing="1" text-anchor="middle"><text x="143" y="203">INPUT TOKENS</text><text x="331" y="203">EMBEDDING</text><text x="565" y="203">TRANSFORMER BLOCK × 20</text><text x="825" y="203">FINAL NORM</text><text x="1036" y="203">VOCAB LOGITS</text></g>
+<path d="M143 267H1036" stroke="#405172" stroke-width="3"/><path d="M143 267H1036" stroke="url(#cyan)" stroke-width="2" stroke-dasharray="3 16" filter="url(#glow)"><animate attributeName="stroke-dashoffset" values="0;-38" dur="2.2s" repeatCount="indefinite"/></path>
+<g><circle cx="143" cy="267" r="28" fill="#17233a" stroke="#ff9c80"/><text x="143" y="271" text-anchor="middle" fill="#f4f7ff" font-size="11">IDs</text><circle cx="331" cy="267" r="28" fill="#17233a" stroke="#6786ff"/><text x="331" y="271" text-anchor="middle" fill="#f4f7ff" font-size="11">Embed</text><rect x="468" y="231" width="194" height="72" rx="12" fill="#172643" stroke="#61e9ce"/><path d="M482 248H648M482 260H632M482 272H642M482 284H622" stroke="#66809f" stroke-width="2" opacity=".6"/><text x="565" y="324" text-anchor="middle" fill="#aab6d0" font-size="11">Q/K/V attention · SwiGLU FFN</text><circle cx="825" cy="267" r="28" fill="#17233a" stroke="#a97cff"/><text x="825" y="271" text-anchor="middle" fill="#f4f7ff" font-size="11">RMS</text><circle cx="1036" cy="267" r="28" fill="#17233a" stroke="#ff9c80"/><text x="1036" y="271" text-anchor="middle" fill="#f4f7ff" font-size="11">V</text></g>
+<circle r="6" fill="#fff" filter="url(#glow)"><animateMotion dur="5.5s" repeatCount="indefinite" path="M143 267 H1036"/></circle>
+<!-- residual arc and attention links -->
+<path d="M465 306C430 359 697 359 663 306" fill="none" stroke="#ff9b7f" stroke-opacity=".7" stroke-dasharray="5 5"/><text x="565" y="354" text-anchor="middle" fill="#ffb394" font-size="11">residual stream</text>
+<g stroke="#8a7bff" stroke-opacity=".65" fill="#8f79ff"><path d="M143 295Q237 393 331 295M331 295Q425 375 519 304M519 304Q667 376 825 295" fill="none" stroke-dasharray="2 6"/><circle cx="237" cy="352" r="3"><animate attributeName="opacity" values=".2;1;.2" dur="2s" repeatCount="indefinite"/></circle></g>
+<rect x="60" y="389" width="1082" height="48" rx="12" fill="#151e31" stroke="#2b3a5a"/><text x="82" y="418" fill="#d5def0" font-size="13">20 blocks</text><text x="227" y="418" fill="#8495b7" font-size="13">HIDDEN 1,920</text><text x="406" y="418" fill="#8495b7" font-size="13">10 HEADS · 192 EACH</text><text x="648" y="418" fill="#8495b7" font-size="13">SwiGLU WIDTH 4,800</text><text x="901" y="418" fill="#8495b7" font-size="13">RoPE · KV CACHE</text></g></svg>

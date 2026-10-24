@@ -1,0 +1,11 @@
+# Core runtime dependencies; matches [project].dependencies in pyproject.toml.
+# Install a hardware-appropriate PyTorch build separately when needed.
+torch
+datasets
+transformers
+safetensors
+pyarrow
+pandas
+requests
+tqdm
+matplotlib
