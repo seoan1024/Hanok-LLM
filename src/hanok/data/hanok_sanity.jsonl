@@ -1,0 +1,29 @@
+{"instruction":"인공지능이란 무엇인가요?","input":"","output":"인공지능(AI)은 컴퓨터가 학습, 추론, 언어 이해, 문제 해결처럼 사람의 지적 능력이 필요한 작업을 수행하도록 만드는 기술입니다."}
+{"instruction":"인공지능이란?","input":"","output":"인공지능(AI)은 컴퓨터가 학습하고 추론하여 사람의 지적 능력이 필요한 문제를 해결하도록 만드는 기술입니다."}
+{"instruction":"AI는 무엇인가요?","input":"","output":"AI는 인공지능의 약자로, 컴퓨터가 데이터에서 패턴을 배우고 판단이나 예측을 수행하게 하는 기술입니다."}
+{"instruction":"대한민국의 수도는 어디인가요?","input":"","output":"대한민국의 수도는 서울입니다."}
+{"instruction":"한국의 수도는?","input":"","output":"한국의 수도는 서울입니다."}
+{"instruction":"빛의 삼원색은 무엇인가요?","input":"","output":"빛의 삼원색은 빨강(R), 초록(G), 파랑(B)입니다."}
+{"instruction":"빛의 삼원색을 알려줘.","input":"","output":"빛의 삼원색은 빨강, 초록, 파랑입니다. 이를 RGB라고 합니다."}
+{"instruction":"1 + 1은 얼마인가요?","input":"","output":"1 + 1은 2입니다."}
+{"instruction":"1 더하기 1은?","input":"","output":"1 더하기 1은 2입니다."}
+{"instruction":"2 곱하기 3은 얼마인가요?","input":"","output":"2 곱하기 3은 6입니다."}
+{"instruction":"10에서 3을 빼면 얼마인가요?","input":"","output":"10에서 3을 빼면 7입니다."}
+{"instruction":"물의 화학식은 무엇인가요?","input":"","output":"물의 화학식은 H2O입니다."}
+{"instruction":"하루는 몇 시간인가요?","input":"","output":"하루는 24시간입니다."}
+{"instruction":"1킬로미터는 몇 미터인가요?","input":"","output":"1킬로미터는 1,000미터입니다."}
+{"instruction":"훈민정음을 만든 왕은 누구인가요?","input":"","output":"훈민정음을 만든 왕은 세종대왕입니다."}
+{"instruction":"지구에서 가장 가까운 별은 무엇인가요?","input":"","output":"지구에서 가장 가까운 별은 태양입니다."}
+{"instruction":"태양계에서 가장 큰 행성은 무엇인가요?","input":"","output":"태양계에서 가장 큰 행성은 목성입니다."}
+{"instruction":"식물이 광합성에 사용하는 기체는 무엇인가요?","input":"","output":"식물은 광합성에 이산화탄소를 사용하고 산소를 방출합니다."}
+{"instruction":"뜨겁다의 반대말은 무엇인가요?","input":"","output":"뜨겁다의 반대말은 차갑다입니다."}
+{"instruction":"안녕","input":"","output":"안녕하세요. 저는 Hanok-LLM입니다. 무엇을 도와드릴까요?"}
+{"instruction":"안녕하세요","input":"","output":"안녕하세요. 만나서 반갑습니다. 무엇을 도와드릴까요?"}
+{"instruction":"너는 누구야?","input":"","output":"저는 Hanok-LLM입니다. 한국어 질문에 답하고 글을 만드는 AI 언어 모델입니다."}
+{"instruction":"넌 누구야","input":"","output":"저는 Hanok-LLM입니다. 한국어를 중심으로 질문에 답하는 AI 언어 모델입니다."}
+{"instruction":"후 알 유?","input":"","output":"저는 Hanok-LLM입니다. 한국어 질문에 답하는 AI 언어 모델입니다."}
+{"instruction":"What are you?","input":"","output":"저는 Hanok-LLM이라는 AI 언어 모델입니다."}
+{"instruction":"모르는 질문을 받으면 어떻게 해야 하나요?","input":"","output":"확실하지 않은 내용은 모른다고 말하고, 추측이라면 추측이라고 밝혀야 합니다."}
+{"instruction":"대한민국의 공용어는 무엇인가요?","input":"","output":"대한민국의 공용어는 한국어입니다."}
+{"instruction":"삼각형의 내각의 합은 몇 도인가요?","input":"","output":"평면 삼각형의 내각의 합은 180도입니다."}
+{"instruction":"윤년의 2월은 며칠까지 있나요?","input":"","output":"윤년의 2월은 29일까지 있습니다."}
