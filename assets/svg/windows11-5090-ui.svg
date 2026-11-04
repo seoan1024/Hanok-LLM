@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
+<title id="title">Validated RTX 5090 Laptop workstation</title><desc id="desc">A workstation profile validated on an RTX 5090 Laptop GPU.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090d18"/><stop offset=".55" stop-color="#10182a"/><stop offset="1" stop-color="#10131f"/></linearGradient>
+ <radialGradient id="aura"><stop stop-color="#465dff" stop-opacity=".23"/><stop offset="1" stop-color="#465dff" stop-opacity="0"/></radialGradient>
+ <linearGradient id="cyan" x2="1"><stop stop-color="#60f0d0"/><stop offset="1" stop-color="#42b9ff"/></linearGradient>
+ <linearGradient id="violet" x2="1"><stop stop-color="#8f79ff"/><stop offset="1" stop-color="#cf77ff"/></linearGradient>
+ <linearGradient id="amber" x2="1"><stop stop-color="#ffc86d"/><stop offset="1" stop-color="#ff8d79"/></linearGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#9bb0de" stroke-opacity=".065" stroke-width=".7"/><circle cx="0" cy="0" r="1" fill="#99b5f8" fill-opacity=".22"/></pattern>
+ <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="26"/></filter>
+ </defs>
+ <rect width="1200" height="480" rx="24" fill="url(#bg)"/><rect width="1200" height="480" rx="24" fill="url(#grid)"/>
+ <circle cx="930" cy="220" r="300" fill="url(#aura)"/><path d="M0 1H1200" stroke="url(#cyan)" stroke-width="2" opacity=".9"/>
+ <g font-family="Inter,Segoe UI,Arial,sans-serif">
+<text x="60" y="53" fill="#61e9ce" font-size="12" font-weight="700" letter-spacing="3">03 / VALIDATED RUNTIME</text><text x="60" y="112" fill="#f4f7ff" font-size="40" font-weight="750">Validated on an RTX 5090 Laptop</text><text x="62" y="142" fill="#aab6d0" font-size="15">RTX 5090 Laptop GPU · workload requirements vary.</text>
+<!-- desktop monitor -->
+<rect x="77" y="181" width="660" height="254" rx="19" fill="#050912" stroke="#526489" stroke-width="2"/><rect x="90" y="194" width="634" height="228" rx="11" fill="#111b2e"/><rect x="90" y="194" width="634" height="27" rx="10" fill="#1b2942"/><circle cx="108" cy="207" r="3" fill="#ff887a"/><circle cx="120" cy="207" r="3" fill="#ffcf72"/><circle cx="132" cy="207" r="3" fill="#62e4ce"/><text x="157" y="211" fill="#8094b8" font-size="9" letter-spacing="1">HANOK TRAINING MONITOR</text>
+<text x="118" y="256" fill="#60e4cd" font-size="10" font-weight="700" letter-spacing="1.5">VALIDATED SYSTEM PROFILE</text><text x="118" y="292" fill="#f4f7ff" font-size="24" font-weight="700">RTX 5090 Laptop GPU</text><text x="118" y="318" fill="#93a5c7" font-size="13">Validated local environment</text>
+<!-- animated monitor loss chart -->
+<path d="M118 370H679M118 349H679M118 328H679" stroke="#2a3955" stroke-width="1" stroke-dasharray="2 7"/><path d="M120 376 C167 359 188 370 220 345 S282 354 315 330 S372 355 407 329 S465 342 501 310 S565 331 599 296 S650 309 676 278" fill="none" stroke="url(#cyan)" stroke-width="3" filter="url(#glow)" stroke-dasharray="780" stroke-dashoffset="780"><animate attributeName="stroke-dashoffset" from="780" to="0" dur="3.5s" fill="freeze"/></path><circle r="5" fill="#fff" filter="url(#glow)"><animateMotion dur="7s" repeatCount="indefinite" path="M120 376 C167 359 188 370 220 345 S282 354 315 330 S372 355 407 329 S465 342 501 310 S565 331 599 296 S650 309 676 278"/></circle>
+<path d="M356 435V458M458 435V458M356 458H458" stroke="#536585" stroke-width="6"/><path d="M282 466H531" stroke="#384864" stroke-width="8" stroke-linecap="round"/>
+<!-- right spec panel -->
+<rect x="790" y="181" width="350" height="286" rx="18" fill="#111a2b" stroke="#344461"/><text x="818" y="218" fill="#f4f7ff" font-size="16" font-weight="700">Validated hardware</text><text x="818" y="241" fill="#7789aa" font-size="11" letter-spacing="1">RTX 5090 LAPTOP PROFILE</text>
+<g><rect x="818" y="265" width="294" height="54" rx="11" fill="#18243a"/><circle cx="840" cy="292" r="8" fill="#61e9ce" opacity=".15"/><circle cx="840" cy="292" r="4" fill="#61e9ce"/><text x="860" y="297" fill="#d8e1f2" font-size="14">24 GB VRAM recommended</text><rect x="818" y="331" width="294" height="54" rx="11" fill="#18243a"/><circle cx="840" cy="358" r="8" fill="#a987ff" opacity=".18"/><circle cx="840" cy="358" r="4" fill="#a987ff"/><text x="860" y="363" fill="#d8e1f2" font-size="14">24 GB system RAM is ample</text></g>
+<text x="818" y="418" fill="#7183a4" font-size="12">Python 3.10+ · CUDA-capable PyTorch</text><path d="M818 433H1112" stroke="#2a3955"/><text x="818" y="453" fill="#7e8dab" font-size="10">VRAM use depends on sequence length and batch.</text></g></svg>
