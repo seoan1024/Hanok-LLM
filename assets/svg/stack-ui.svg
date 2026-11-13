@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
+<title id="title">A stack with clear boundaries</title><desc id="desc">Animated layered system diagram showing Hanok core and its data, tokenizer, export, and runtime connections.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090d18"/><stop offset=".55" stop-color="#10182a"/><stop offset="1" stop-color="#10131f"/></linearGradient>
+ <radialGradient id="aura"><stop stop-color="#465dff" stop-opacity=".23"/><stop offset="1" stop-color="#465dff" stop-opacity="0"/></radialGradient>
+ <linearGradient id="cyan" x2="1"><stop stop-color="#60f0d0"/><stop offset="1" stop-color="#42b9ff"/></linearGradient>
+ <linearGradient id="violet" x2="1"><stop stop-color="#8f79ff"/><stop offset="1" stop-color="#cf77ff"/></linearGradient>
+ <linearGradient id="amber" x2="1"><stop stop-color="#ffc86d"/><stop offset="1" stop-color="#ff8d79"/></linearGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#9bb0de" stroke-opacity=".065" stroke-width=".7"/><circle cx="0" cy="0" r="1" fill="#99b5f8" fill-opacity=".22"/></pattern>
+ <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="26"/></filter>
+ </defs>
+ <rect width="1200" height="480" rx="24" fill="url(#bg)"/><rect width="1200" height="480" rx="24" fill="url(#grid)"/>
+ <circle cx="930" cy="220" r="300" fill="url(#aura)"/><path d="M0 1H1200" stroke="url(#cyan)" stroke-width="2" opacity=".9"/>
+ <g font-family="Inter,Segoe UI,Arial,sans-serif">
+<text x="60" y="53" fill="#61e9ce" font-size="12" font-weight="700" letter-spacing="3">05 / TECHNOLOGY STACK</text><text x="60" y="112" fill="#f4f7ff" font-size="40" font-weight="750">One core. Clear boundaries.</text><text x="62" y="142" fill="#aab6d0" font-size="15">A modular local toolchain, with external bridges where needed.</text>
+<!-- connected hex / orbit -->
+<circle cx="598" cy="286" r="176" fill="none" stroke="#415173" stroke-opacity=".65"/><circle cx="598" cy="286" r="132" fill="none" stroke="#6979a8" stroke-opacity=".4" stroke-dasharray="2 9"><animateTransform attributeName="transform" type="rotate" from="0 598 286" to="360 598 286" dur="48s" repeatCount="indefinite"/></circle>
+<path d="M598 148L718 217V355L598 424L478 355V217Z" fill="none" stroke="#344665" stroke-width="1.5"/><path d="M598 200V245M675 286H634M598 372V328M520 286H562" stroke="#587093" stroke-width="1.5"/><path d="M598 200V245M675 286H634M598 372V328M520 286H562" stroke="#60e9d1" stroke-width="2" stroke-dasharray="4 8"><animate attributeName="stroke-dashoffset" values="0;-24" dur="2.2s" repeatCount="indefinite"/></path>
+<circle cx="598" cy="286" r="55" fill="#152440" stroke="#6c82ff" stroke-width="2"/><circle cx="598" cy="286" r="44" fill="none" stroke="#60e9d1" stroke-opacity=".4"><animate attributeName="r" values="39;46;39" dur="3s" repeatCount="indefinite"/></circle><text x="598" y="282" text-anchor="middle" fill="#f4f7ff" font-size="16" font-weight="700" letter-spacing="1">HANOK</text><text x="598" y="303" text-anchor="middle" fill="#9eb0d2" font-size="11">PYTORCH CORE</text>
+<g><rect x="497" y="161" width="202" height="47" rx="13" fill="#151f34" stroke="#637aff"/><circle cx="518" cy="184" r="4" fill="#8292ff"/><text x="533" y="189" fill="#e2e8ff" font-size="13" font-weight="700">Transformers · tokenizer</text>
+<rect x="684" y="263" width="202" height="47" rx="13" fill="#191d34" stroke="#b273ff"/><circle cx="705" cy="286" r="4" fill="#bd8bff"/><text x="720" y="291" fill="#e2dfff" font-size="13" font-weight="700">llama.cpp · GGUF</text>
+<rect x="497" y="365" width="202" height="47" rx="13" fill="#132a29" stroke="#47ba9c"/><circle cx="518" cy="388" r="4" fill="#60e9d1"/><text x="533" y="393" fill="#d9f5ed" font-size="13" font-weight="700">Hugging Face · data</text>
+<rect x="310" y="263" width="202" height="47" rx="13" fill="#2a211f" stroke="#e69a70"/><circle cx="331" cy="286" r="4" fill="#ffae84"/><text x="346" y="291" fill="#fbe2d4" font-size="13" font-weight="700">Local files · Parquet</text></g>
+<circle r="5" fill="#fff" filter="url(#glow)"><animateMotion dur="8s" repeatCount="indefinite" path="M598 184V245M785 286H634M598 388V328M411 286H562"/></circle>
+<!-- side annotations -->
+<text x="942" y="222" fill="#60e9d1" font-size="10" font-weight="700" letter-spacing="2">OPTIONAL BRIDGES</text><path d="M942 235H1137" stroke="#374968"/><text x="942" y="264" fill="#d0daee" font-size="14">bitsandbytes</text><text x="942" y="284" fill="#7e90b0" font-size="11">8-bit optimizer</text><text x="942" y="322" fill="#d0daee" font-size="14">matplotlib</text><text x="942" y="342" fill="#7e90b0" font-size="11">training monitor</text><text x="942" y="380" fill="#d0daee" font-size="14">Ollama</text><text x="942" y="400" fill="#7e90b0" font-size="11">model registration</text>
+<text x="62" y="455" fill="#7183a4" font-size="11">GGUF conversion and Ollama registration use external local executables.</text></g></svg>
